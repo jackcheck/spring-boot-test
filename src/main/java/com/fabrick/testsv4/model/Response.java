@@ -1,17 +1,16 @@
 package com.fabrick.testsv4.model;
 
 import lombok.Data;
-import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.List;
 
 @Data
-public class Transactions {
+public class Response {
 
     private static final long serialVersionUID = 1L;
 
     public String status;
-    public List<String> error;
+    public List<Error> errors;
     public Payload payload;
 
     public String getStatus() {
@@ -24,14 +23,14 @@ public class Transactions {
         this.status = status;
     }
 
-    public List<String> getError() {
+    public List<Error> getErrors() {
 
-        return error;
+        return errors;
     }
 
-    public void setError(List<String> error) {
+    public void setErrors(List<Error> errors) {
 
-        this.error = error;
+        this.errors = errors;
     }
 
     public Payload getPayload() {

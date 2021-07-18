@@ -1,0 +1,11 @@
+{
+    "status": "KO",
+    "errors": [
+        {
+            "code": "API000",
+            "description": "Error Transaction List",
+            "params": ""
+        }
+    ],
+    "payload": {}
+}

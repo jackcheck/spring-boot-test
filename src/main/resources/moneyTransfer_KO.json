@@ -1,0 +1,11 @@
+{
+    "status": "KO",
+    "errors": [
+        {
+            "code": "API000",
+            "description": "IbanBeneficiario è obbligatorio",
+            "params": ""
+        }
+    ],
+    "payload": {}
+}

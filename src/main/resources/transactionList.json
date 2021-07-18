@@ -1,0 +1,23 @@
+{
+    "status": "OK",
+    "errors": [],
+    "payload": {
+        "list": [
+            {
+                "accountId": "14537780",
+                "iban": "IT40L0326822311052923800661",
+                "abiCode": "03268",
+                "cabCode": "22311",
+                "countryCode": "IT",
+                "internationalCin": "40",
+                "nationalCin": "L",
+                "account": "52923800661",
+                "alias": "Test api",
+                "productName": "Conto Websella",
+                "holderName": "LUCA TERRIBILE",
+                "activatedDate": "2016-12-14",
+                "currency": "EUR"
+            }
+        ]
+    }
+}
