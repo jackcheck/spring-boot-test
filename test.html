@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      JSON TEST
+    </title>
+  </head>
+  <body>
+    <h2>
+      Transactions List from Fabrick API
+    </h2>
+    <form enctype="application/x-www-form-urlencoded" Content-Type="application/json" method="POST" action="http://localhost:8080/api/v1/fabrick/transactionList" name="jsontest">
+    <input name="accountId" id="accountId" value="14537780">
+    <input name="fromAccountingDate" id="fromAccountingDate" value="2019-01-01">
+    <input name="toAccountingDate" id="toAccountingDate" value="2019-12-01">
+    <input type="submit" value="Submit">
+    </form>
+<hr>
+<h2>
+      Transactions List from MongoDB
+    </h2>
+    <form enctype="application/x-www-form-urlencoded" method="GET" action="http://localhost:8080/api/v1/fabrick/transactionList" name="jsontest">
+    <input type="submit" value="Submit">
+    </form>
+<hr>
+<h2>
+    Account Balance from Fabrick API
+    </h2>
+    <form enctype="application/x-www-form-urlencoded" Content-Type="application/json"  method="POST" action="http://localhost:8080/api/v1/fabrick/accountBalance" name="jsontest">
+    <input name="accountId" id="accountId" value="14537780">
+    <input type="submit" value="Submit">
+    </form>
+<hr>
+    <h2>
+      Money Transfer from Fabrick API
+    </h2>
+    <form enctype="application/x-www-form-urlencoded" Content-Type="application/json"  method="POST" action="http://localhost:8080/api/v1/fabrick/moneytransfer" name="jsontest">
+    <input name="accountId" id="accountId" value="14537780">
+    <input name="receiverName" id="receiverName" value="Receiver Name">
+    <input name="description" id="description" value="description text">
+    <input name="currency" id="currency" value="EUR">
+    <input name="amount" id="amount" value="100">
+    <input name="executionDate" id="executionDate" value="2020-12-12">
+    <input type="submit" value="Submit">
+    </form>
+<hr>
+    <h2>
+      Money Transfer from Mongo DB
+    </h2>
+    <form enctype="application/x-www-form-urlencoded" Content-Type="application/json"  method="POST" action="http://localhost:8080/api/v1/fabrick/moneytransferList" name="jsontest">
+    <input name="status" id="status" value="OK">
+    <input type="submit" value="Submit">
+    </form>
+<hr>
+
+  </body>
+</html>
+  

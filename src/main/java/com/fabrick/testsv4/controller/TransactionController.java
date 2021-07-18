@@ -80,7 +80,7 @@ public class TransactionController {
         if (Const.isMock) {
             //SUCCESS accountBalance.json
             //FAIL accountBalance_KO.json
-            response = Utils.getMockResponse("accountBalance_KO.json");
+            response = Utils.getMockResponse("accountBalance.json");
             log.info("Log fetchApiAccountBalance : is mocked response");
         } else {
             GreetingWebClient gwc = new GreetingWebClient();
@@ -115,7 +115,7 @@ public class TransactionController {
         if (Const.isMock) {
             //SUCCESS moneyTransfer.json
             //FAIL moneyTransfer_KO.json
-            response = Utils.getMockResponse("moneyTransfer_KO.json");
+            response = Utils.getMockResponse("moneyTransfer.json");
             log.info("Log fetchApiMoneyTransfer : is mocked response");
         } else {
             GreetingWebClient gwc = new GreetingWebClient();

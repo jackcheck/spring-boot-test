@@ -8,6 +8,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.AssertionsKt;
 import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.web.reactive.server.WebTestClient;
 import org.springframework.util.Assert;
 import reactor.core.publisher.Mono;
@@ -16,6 +17,7 @@ import java.text.ParseException;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+@SpringBootTest
 class GreetingWebClientTest {
 
     WebTestClient client = WebTestClient
