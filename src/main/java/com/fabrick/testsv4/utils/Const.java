@@ -2,7 +2,8 @@ package com.fabrick.testsv4.utils;
 
 public class Const {
 
-    public static final boolean isMock = true;
+    //If set true, will take response from resources folder
+    public static final boolean isMock = false;
 
     //WEB-CLIENT CONSTS
     public static final String BASE_URL = "https://sandbox.platfr.io";
