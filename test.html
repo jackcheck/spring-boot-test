@@ -10,9 +10,9 @@
       Transactions List from Fabrick API
     </h2>
     <form enctype="application/x-www-form-urlencoded" Content-Type="application/json" method="POST" action="http://localhost:8080/api/v1/fabrick/transactionList" name="jsontest">
-    <input name="accountId" id="accountId" value="14537780">
-    <input name="fromAccountingDate" id="fromAccountingDate" value="2019-01-01">
-    <input name="toAccountingDate" id="toAccountingDate" value="2019-12-01">
+    accountId <input name="accountId" id="accountId" value="14537780"><br>
+    fromAccountingDate <input name="fromAccountingDate" id="fromAccountingDate" value="2019-01-01"><br>
+    toAccountingDate <input name="toAccountingDate" id="toAccountingDate" value="2019-12-01"><br><br>
     <input type="submit" value="Submit">
     </form>
 <hr>
@@ -26,8 +26,8 @@
 <h2>
     Account Balance from Fabrick API
     </h2>
-    <form enctype="application/x-www-form-urlencoded" Content-Type="application/json"  method="POST" action="http://localhost:8080/api/v1/fabrick/accountBalance" name="jsontest">
-    <input name="accountId" id="accountId" value="14537780">
+    <form enctype="application/x-www-form-urlencoded" Content-Type="application/json"  method="POST" action="http://localhost:8080/api/v1/fabrick/accountBalance" name="jsontest"><br>
+    accountId <input name="accountId" id="accountId" value="14537780"><br><br>
     <input type="submit" value="Submit">
     </form>
 <hr>
@@ -35,12 +35,12 @@
       Money Transfer from Fabrick API
     </h2>
     <form enctype="application/x-www-form-urlencoded" Content-Type="application/json"  method="POST" action="http://localhost:8080/api/v1/fabrick/moneytransfer" name="jsontest">
-    <input name="accountId" id="accountId" value="14537780">
-    <input name="receiverName" id="receiverName" value="Receiver Name">
-    <input name="description" id="description" value="description text">
-    <input name="currency" id="currency" value="EUR">
-    <input name="amount" id="amount" value="100">
-    <input name="executionDate" id="executionDate" value="2020-12-12">
+    accountId <input name="accountId" id="accountId" value="14537780"><br>
+    receiverName <input name="receiverName" id="receiverName" value="Receiver Name"><br>
+    description <input name="description" id="description" value="description text"><br>
+    currency <input name="currency" id="currency" value="EUR"><br>
+    amount <input name="amount" id="amount" value="100"><br>
+    executionDate <input name="executionDate" id="executionDate" value="2020-12-12"><br><br>
     <input type="submit" value="Submit">
     </form>
 <hr>
@@ -48,7 +48,7 @@
       Money Transfer from Mongo DB
     </h2>
     <form enctype="application/x-www-form-urlencoded" Content-Type="application/json"  method="POST" action="http://localhost:8080/api/v1/fabrick/moneytransferList" name="jsontest">
-    <input name="status" id="status" value="OK">
+    status <input name="status" id="status" value="OK"> OK / KO<br><br>
     <input type="submit" value="Submit">
     </form>
 <hr>
